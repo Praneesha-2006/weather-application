@@ -1,0 +1,102 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to right, #a3afcc, #4351d2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.weather-container {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  width: 350px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 6px 0 0 6px;
+  outline: none;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background: #2d3481;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0 6px 6px 0;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #292e5e;
+}
+
+.card {
+  background: #fafafa;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.weather-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.label {
+  font-size: 13px;
+  opacity: 0.7;
+  margin-bottom: 4px;
+}
+
+#savedList {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+#savedList li {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+}
+
+#savedList button {
+  background: #f44336;
+  padding: 5px 8px;
+  border-radius: 4px;
+}
+body.day {
+  background: linear-gradient(to right, #74ABE2, #5563DE);
+}
+
+body.night {
+  background: linear-gradient(to right, #0f2027, #3b7183, #2c5364);
+  color: #5746b4;
+}
+
+.hidden { 
+  display: none;
+ }
