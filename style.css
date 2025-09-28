@@ -1,3 +1,48 @@
+@media (max-width: 500px) {
+  .weather-container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  form {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  input, button {
+    width: 100%;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+
+  .weather-info {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  .label {
+    font-size: 12px;
+  }
+
+  #savedList li {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  #savedList button {
+    align-self: flex-end;
+  }
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   background: linear-gradient(to right, #a3afcc, #4351d2);
